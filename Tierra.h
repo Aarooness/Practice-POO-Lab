@@ -6,6 +6,7 @@
 #define AGREGACION_TIERRA_H
 
 #include <iostream>
+#include <SFML/Graphics.hpp>
 #include <vector>
 #include "Tipos.h"
 #include "Objeto.h"
@@ -22,7 +23,8 @@ const TipoCaracter COLOR ='.';
 
 class Tierra {
 private:
-    vector<vector<char>> plano;
+    //vector<vector<char>> plano;
+    sf::RenderWindow* plano;
     vector<Objeto*> objetos;
 public:
     Tierra();

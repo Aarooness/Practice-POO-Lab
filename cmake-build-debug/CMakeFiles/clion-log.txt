@@ -1,0 +1,25 @@
+"D:\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Usuario\Documents\GitHub\Practice-POO-Lab
+CMake Warning at CMakeLists.txt:18 (find_package):
+  By not providing "FindSFML.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "SFML", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "SFML" (requested
+  version 2.5.1) with any of the following names:
+
+    SFMLConfig.cmake
+    sfml-config.cmake
+
+  Add the installation prefix of "SFML" to CMAKE_PREFIX_PATH or set
+  "SFML_DIR" to a directory containing one of the above files.  If "SFML"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+CMake Error at CMakeLists.txt:26 (target_link_libraries):
+  Cannot specify link libraries for target "game" which is not built by this
+  project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Usuario/Documents/GitHub/Practice-POO-Lab/cmake-build-debug/CMakeFiles/CMakeOutput.log".
